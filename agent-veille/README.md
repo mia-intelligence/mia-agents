@@ -24,3 +24,14 @@ de l'intelligence artificielle, sans intervention manuelle.
 - Stocker les résultats dans Google Drive ou Airtable 
   plutôt que localement pour plus de fiabilité et d'accessibilité
 - Permettre le partage des synthèses avec des clients
+## Flux visuel
+
+```mermaid
+flowchart TD
+    A[⏰ Déclenchement automatique hebdomadaire] --> B[🤖 Claude Code recherche l'actualité IA]
+    B --> C[📰 Compilation des informations]
+    C --> D[📁 Création du dossier de synthèse]
+    D --> E[💻 Stockage local sur le poste de travail]
+    E --> F[⚠️ Amélioration prévue]
+    F --> G[☁️ Migration vers Google Drive ou Airtable]
+```
