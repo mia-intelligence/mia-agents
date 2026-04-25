@@ -64,3 +64,14 @@ choisi par le client.
 
 ✅ En production
 
+## Flux visuel
+
+```mermaid
+flowchart TD
+    A[🖥️ Client remplit le formulaire] --> B[📊 Données envoyées dans Airtable]
+    B --> C[⚙️ Make.com déclenche l'automatisation]
+    C --> D[🤖 Claude génère les contenus]
+    D --> E[Blog + Facebook + Instagram]
+    E --> F[👀 Client valide les contenus]
+    F -->|✅ Validé| G[📤 Publication sur les réseaux]
+    F -->|❌ Non validé sous 7 jours| H[🗄️ Dossier classé]
