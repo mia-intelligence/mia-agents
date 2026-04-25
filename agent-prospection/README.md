@@ -82,5 +82,20 @@ Identifier automatiquement deux types de cibles sur les départements
 
 \- Mettre en place un scoring automatique des prospects
 
+## Flux visuel
 
+```mermaid
+flowchart TD
+    A[🎯 Définition des critères] --> B[🔍 Recherche multi-sources]
+    B --> C[Apollo]
+    B --> D[Pappers]
+    B --> E[data.gouv]
+    B --> F[Google]
+    C --> G[📋 Consolidation des résultats]
+    D --> G
+    E --> G
+    F --> G
+    G --> H[👥 Liste prospects qualifiés]
+    H --> I[📧 Prise de contact]
+```
 
